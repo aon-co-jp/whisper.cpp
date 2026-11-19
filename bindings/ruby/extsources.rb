@@ -5,7 +5,6 @@ ignored_dirs = %w[
   .devops
   .github
   ci
-  examples/addon.node
   examples/bench.wasm
   examples/command
   examples/command.wasm

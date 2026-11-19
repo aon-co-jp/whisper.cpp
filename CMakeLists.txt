@@ -281,7 +281,7 @@ install(FILES "${CMAKE_CURRENT_BINARY_DIR}/parakeet.pc"
 # programs, examples and tests
 #
 
-if (WHISPER_BUILD_TESTS AND NOT CMAKE_JS_VERSION)
+if (WHISPER_BUILD_TESTS)
     include(CTest)
     add_subdirectory(tests)
 endif ()
